@@ -10,7 +10,7 @@ library(dplyr)
 app <- Dash$new(external_stylesheets = "https://codepen.io/chriddyp/pen/bWLwgP.css")
 
 
-tsunami_events <- read_csv("C:/Users/rowan/DSCI_532/dashr-heroku-deployment-demo/data/processed/tsunami-events.csv")
+tsunami_events <- read_csv("data/processed/tsunami-events.csv")
 
 
 app$layout(
